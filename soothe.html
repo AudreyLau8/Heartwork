@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+
+	</script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+
+	</script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+
+	</script>
+	<style>
+		.btn-find {
+			border: none;
+			outline: none;
+			padding: 12px 16px;
+			background-color: #f1f1f1;
+			cursor: pointer;
+		}
+
+		.btn-find:hover {
+			background-color: #ddd;
+		}
+
+		.btn-find.active {
+			background-color: #666;
+			color: white;
+		}
+
+		.width-search {
+			width: 800px;
+			margin-inline-start: 170px;
+		}
+	</style>
+</head>
+
+<body>
+	<script src="script.js">
+
+	</script>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="index.html"><img src="Images/logo.png" alt="Heartwork logo" class="logo"/> heartwork.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <!--<li class="nav-item">
+          <a class="nav-link" href="chat.html">Chatbot</a>
+          </li>
+        <!--learn-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Learn
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="nav-link disabled" >Social-emotional Health</a>
+              <a class="dropdown-item" href="learn.html#relationships">Relationships</a>
+              <a class="dropdown-item" href="learn.html#lgbtq+">LGBTQ+</a>
+            <div class="dropdown-divider"></div>
+              <a class="nav-link disabled" href="#">Mental Health</a>
+              <a class="dropdown-item" href="learn.html#anxiety">Anxiety</a>
+              <a class="dropdown-item" href="learn.html#adhd">ADHD</a>
+              <a class="dropdown-item" href="learn.html#depression">Depression</a>
+          </div>
+        </li>
+
+        <!--soothe-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Soothe
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="soothe.html#move">Move</a>
+            <a class="dropdown-item" href="soothe.html#breathe">Breathe</a>
+            <!-- <div class="dropdown-divider"></div> -->
+            <a class="dropdown-item" href="soothe.html#listen">Listen</a>
+          </div>
+        </li>
+
+        <!--seek help-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Seek Help
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="help.html">Tips</a>
+            <a class="dropdown-item" href="https://www.psychologytoday.com/us/therapists">Connect</a>
+            <!-- <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a> -->
+          </div>
+        </li>
+      </ul>
+
+      <!--sign up-->
+      <form type="post" action="signup.html">
+        <input  class="btn btn-outline-accent my-2 my-sm-0" type="submit" value="Sign Up" role="button">
+        <!-- <a class="btn btn-outline-accent my-2 my-sm-0"></a> -->
+        </input>
+      </form>
+    </div>
+  </nav>
+
+  <div id="move" class = "box-12">
+    <br>
+    <h1>Move</h1>
+
+    <h2>
+    <p class = "pTag-move">
+      With origins in East Asia, yoga — the Sanskrit word for “yoke,” or combine — incorporates physical (hatha yoga), emotional and spiritual practices. In yoga, one moves through asanas (poses) while controlling their breath.
+    </p>
+    <ul class = "ul-move">
+      <li>
+        <a href="https://www.yogajournal.com/">Yoga Journal</a> - Yoga Journal 
+      </li>
+      <li>
+        <a href="https://academy.yogaed.com/p/yoga-ed-for-free-online-yoga-mindfulness-classes-for-all-ages">Yoga Ed. Academy</a> - Yoga Ed. Academy offers free lessons for K-12 youth. If you’re a beginner or looking to start practicing yoga, this is the program for you!
+      </li>
+      <li>
+        <a href="https://yogawithadriene.com/">Yoga with Adriene</a> - Adriene Mishler is an international yoga teacher. With over 9 million YouTube subscribers, her yoga lessons are intended for people of all backgrounds. 
+      </li>
+    </ul>
+
+    <h2>
+    <p class = "pTag-move">
+      Regular exercise can relieve stress. For adolescents, 60 minutes of exercise per day is recommended. Incorporating workouts into your daily routine can be beneficial in the long-term.
+    </p>
+    <ul class = "ul-move">
+      <li>
+        <a href="https://www.yogajournal.com/">Yoga Journal</a> - Yoga Journal 
+      </li>
+      <li>
+        <a href="https://academy.yogaed.com/p/yoga-ed-for-free-online-yoga-mindfulness-classes-for-all-ages">Yoga Ed. Academy</a> - 
+      </li>
+      <li>
+        <a href="https://yogawithadriene.com/">Yoga with Adriene</a> - Adriene Mishler is an international yoga teacher. With over 9 million YouTube subscribers, her yoga lessons are intended for people of all backgrounds. 
+      </li>
+    </ul>
+  </div>
+  
+
+  <hr class = "hr-dotted">
+  <br>
+  <br>
+  
+  <div id="breathe" class = "box-13">
+    <br>
+    <h1>Breathe</h1>
+    
+  </div>
+
+  <hr class = "hr-dotted">
+  <br>
+  <br>
+
+  <div class="box-5" id="listen">  
+    <br>
+    <h1>Listen</h1>
+    <div class="col-sm mt-5 width-search">
+      <input type="text" id="myFilter" class="form-control width-search" onkeyup="myFunction()" placeholder="Search based on category..">
+    </div>
+    <div class="container">
+      <div class="row" id="myItems">
+        <div class="col-sm mt-5">
+          <div class="card" style="width: 18rem;">
+            <!-- Video Link -->
+            <iframe width="288" height="240" src="https://www.youtube.com/embed/ml0WSnl7AAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Instrumental: Violin</h5>
+              <p class="card-text"> 
+                Laid Back, Soothing Classical Violin Concerto Instrumental Music perfect for Studying, Work, Sleep for Full 10 Hours!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm mt-5 filterDiv instruments">
+          <div class="card" style="width: 18rem;">
+            <!-- Video Link -->
+            <iframe width="288" height="240" src="https://www.youtube.com/embed/Xv1Yx3eFnEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Instrumental: Guitar</h5>
+              <p class="card-text"> Relaxing background guitar music to meditate, focus, study, and think. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm mt-5 filterDiv instruments">
+          <div class="card" style="width: 18rem;">
+            <!-- Video Link -->
+            <iframe width="288" height="240" src="https://www.youtube.com/embed/Lh3keXRnSc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Instrumental: Piano</h5>
+              <p class="card-text"> Soft, calm, relaxing piano music for over 3 hours. Brighten your morning with easy, light background music composed by Peder B. Helland. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm mt-5 filterDiv instruments">
+          <div class="card" style="width: 18rem;">
+            <!-- Video Link -->
+            <iframe width="288" height="240" src="https://www.youtube.com/embed/EOjve-nyYfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Instrumental: Flute</h5>
+              <p class="card-text"> 1 HOUR of Best Relaxing Music | Bamboo Flute | Meditation Music | Sleep Music | Sleeping Music | Peaceful Music | Meditation Music Relax Mind Body | Healing - Sleep - Zen - Peace
+ </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm mt-5 filterDiv instruments">
+          <div class="card" style="width: 18rem;">
+            <!-- Video Link -->
+            <iframe width="288" height="240" src="https://www.youtube.com/embed/cObZO8Gakfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Instrumental: Harp</h5>
+              <p class="card-text"> Listen to our beautiful harp music for meditation that people are finding relaxing to listen to.  This relaxing harp background instrumental, we call "Harp for Meditation," is perfect for those days of stress and you need meditation music to let your tense feelings go.  The relaxing harp music may also help you keep your relaxed feelings while you close your eyes to meditate or pray.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm mt-5 filterDiv instruments">
+          <div class="card" style="width: 18rem;">
+            <!-- Video Link -->
+            <iframe width="288" height="240" src="https://www.youtube.com/embed/sdlnOxjDzdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Nature: Forest</h5>
+              <p class="card-text"> Harmoniously beautiful, quiet and slow music can be used as music for relaxation, music for learning, music for working and studying, as mood music, peaceful sleep aid music, as wellness and spa music, yoga and meditation, as background music to enjoy moments of life. Here you will find a quiet and beautiful place for inspiration, energizing, healing, calming, creativity, fulfilled moments, and relaxation to refuel new positive energy and strength to cope with the stresses of everyday life. Relax together with nature and instrumental music.
+ </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm mt-5 filterDiv instruments">
+          <div class="card" style="width: 18rem;">
+            <!-- Video Link -->
+            <iframe width="288" height="240" src="https://www.youtube.com/embed/02NQkhbjALg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Nature: Running Water</h5>
+              <p class="card-text"> Nature sounds, with the soothing sound of a waterfall, forest sounds or birdsong are relaxing to our minds and help us to sleep, study or for meditation. We are able to relax with these peaceful sounds of nature which have accompanied us since the dawn of time, we are familiar with natures rhythms. They are part of our own rhythms, we feel safe and comfortable with the sounds of nature.  </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm mt-5 filterDiv instruments">
+          <div class="card" style="width: 18rem;">
+            <!-- Video Link -->
+            <iframe width="288" height="240" src="https://www.youtube.com/embed/Qo4JIT8jMtI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Nature: Rain, Thunder</h5>
+              <p class="card-text"> Mountain Rain & Thunderstorm Sleep Sounds- Hiking to a Mountain top can be a great thing. The rush one gets when finishing such an arduous task is amazing. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm mt-5 filterDiv instruments">
+          <div class="card" style="width: 18rem;">
+            <!-- Video Link -->
+            <iframe width="288" height="240" src="https://www.youtube.com/embed/Qm846KdZN_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Nature: Birds</h5>
+              <p class="card-text"> Relax with the pure sound of birds singing (Nightingale, Blackbird, Chaffinch, Cuckoo and others) and the view of a very calm forest river flowing through a lush green forest. This video of beautiful and pristine nature creates an atmosphere of peace and tranquility. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm mt-5 filterDiv instruments">
+          <div class="card" style="width: 18rem;">
+            <!-- Video Link -->
+            <iframe width="288" height="240" src="https://www.youtube.com/embed/aqWFXJBq7Dg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Instrumental: Piano</h5>
+              <p class="card-text"> Another slow and relaxing piano music piece by relaxdaily. Instrumental music e.g. for your good morning playlist, for relaxing, for playing in the background while working or studying, for thinking, creating, dreaming, meditating or simply for one of your smooth music playlists.  </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm mt-5 filterDiv instruments">
+          <div class="card" style="width: 18rem;">
+            <!-- Video Link -->
+            <iframe width="288" height="240" src="https://www.youtube.com/embed/lTRiuFIWV54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Lofi Music</h5>
+              <p class="card-text"> lofi hip hop/chill beats </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm mt-5 filterDiv instruments">
+          <div class="card" style="width: 18rem;">
+            <!-- Video Link -->
+            <iframe width="288" height="240" src="https://www.youtube.com/embed/bgV2_mHyzbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Instrumental: Mixed</h5>
+              <p class="card-text"> My instrumental music can help you find deep relaxation, relieve anxiety, and find peace. My music incorporates relaxing sounds of nature and features flute music, piano music, harp music, & violin music. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm mt-5 filterDiv instruments">
+          <div class="card" style="width: 18rem;">
+            <!-- Video Link -->
+            <iframe width="288" height="240" src="https://www.youtube.com/embed/aQ5T9cSD-Rs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Nature: Insects</h5>
+              <p class="card-text"> Evening insect displays, both audio and visual, in Aiken, South Carolina. The bursts of yellow lights are fireflies, the drone of sound is from crickets, and the pulsed calls are from katydids. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm mt-5 filterDiv instruments">
+          <div class="card" style="width: 18rem;">
+            <!-- Video Link -->
+            <iframe width="288" height="240" src="https://www.youtube.com/embed/TFXK3c3SYvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Mixed: Piano, Rain</h5>
+              <p class="card-text">  
+                Relaxing Sleep Music + Rain Sounds - Relaxing Music, Beautiful Piano Music, Stress Relief 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm mt-5 filterDiv instruments">
+          <div class="card" style="width: 18rem;">
+            <!-- Video Link -->
+            <iframe width="288" height="240" src="https://www.youtube.com/embed/vrEXmO5yJIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Instrumental: Guitar</h5>
+              <p class="card-text"> 
+                6 Hour Relaxing Music: Nature Sounds, Guitar Instrumental, Acoustic Guitar, Background Music
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm mt-5 filterDiv instruments">
+          <div class="card" style="width: 18rem;">
+            <!-- Video Link -->
+            <iframe width="288" height="240" src="https://www.youtube.com/embed/zQtfnPTlFFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Mixed: Flute, Rainforest</h5>
+              <p class="card-text">
+                Relaxing music with water sounds meditation, ambient music and nature sleep music with background water sounds for sleeping, gentle stream pan flute relax. 
+              </p>
+            </div>
+          </div>
+        </div>   
+        <div class="col-sm mt-5 filterDiv instruments">
+          <div class="card" style="width: 18rem;">
+            <!-- Video Link -->
+            <iframe width="288" height="240" src="https://www.youtube.com/embed/eAPXu7YO0s8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Instrumental: Violin</h5>
+              <p class="card-text"> The video is on classical violin music. It is embeded into this page so just click on the video and it will play. </p>
+            </div>
+          </div>
+        </div> 
+        <div class="col-sm mt-5 filterDiv instruments">
+          <div class="card" style="width: 18rem;">
+            <!-- Video Link -->
+            <iframe width="288" height="240" src="https://www.youtube.com/embed/EpAyaAyWl-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Instrumental: Guitar</h5>
+              <p class="card-text"> Enjoy 3 hours of relaxing guitar music. This video features relaxing music that is ideal for sleep, study and meditation. </p>
+            </div>
+          </div>
+        </div>    
+      </div>
+    </div>
+  </div>
+ 
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "71d28492-3a1f-4c7d-96f8-79975b92b178", // The ID of this integration.
+      region: "us-south", // The region your integration is hosted in.
+      serviceInstanceID: "fa11eb7c-1c9a-48b6-a292-f4d7e8cac55c", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
+<script>
+  function myFunction() {
+    var input, filter, cards, cardContainer, h5, title, i;
+    input = document.getElementById("myFilter");
+    filter = input.value.toUpperCase();
+    cardContainer = document.getElementById("myItems");
+    cards = cardContainer.getElementsByClassName("card");
+    for (i = 0; i < cards.length; i++) {
+        title = cards[i].querySelector(".card-body h5.card-title");
+        if (title.innerText.toUpperCase().indexOf(filter) > -1) {
+            cards[i].style.display = "";
+        } else {
+            cards[i].style.display = "none";
+        }
+    }
+  }
+</script>
+</body>
+
+</html>

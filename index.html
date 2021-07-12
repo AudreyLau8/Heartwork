@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+
+	</script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+
+	</script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+
+	</script>
+
+	<style>
+		.searchbar-width {
+      width: 610px;
+      margin-inline-start: 250px;
+      text-align: center;
+      margin-bottom: 50px;
+      margin-top: 30px;
+    }
+
+    .btn-help {
+      padding: 15px;
+      align-content: center;
+      width: 300px;
+      /* margin-left: 10px; 
+      margin-inline-start: 270px; */
+    }
+
+    .btn-crisis {
+      padding: 15px;
+      align-content: center;
+      width: 300px;
+      margin-left: 246px;
+      margin-right: 0px;
+    }
+	</style>
+</head>
+
+<body>
+	<script src="script.js">
+
+	</script>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="index.html"><img src="Images/logo.png" alt="Heartwork logo" class="logo"/> heartwork.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <!--<li class="nav-item">
+          <a class="nav-link" href="chat.html">Chatbot</a>
+          </li>
+        <!--learn-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Learn
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="nav-link disabled" >Social-emotional Health</a>
+              <a class="dropdown-item" href="learn.html#relationships">Relationships</a>
+              <a class="dropdown-item" href="learn.html#lgbtq+">LGBTQ+</a>
+            <div class="dropdown-divider"></div>
+              <a class="nav-link disabled" href="#">Mental Health</a>
+              <a class="dropdown-item" href="learn.html#anxiety">Anxiety</a>
+              <a class="dropdown-item" href="learn.html#adhd">ADHD</a>
+              <a class="dropdown-item" href="learn.html#depression">Depression</a>
+          </div>
+        </li>
+
+        <!--soothe-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Soothe
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="soothe.html#move">Move</a>
+            <a class="dropdown-item" href="soothe.html#breathe">Breathe</a>
+            <!-- <div class="dropdown-divider"></div> -->
+            <a class="dropdown-item" href="soothe.html#listen">Listen</a>
+          </div>
+        </li>
+
+        <!--seek help-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Seek Help
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="help.html">Tips</a>
+            <a class="dropdown-item" href="https://www.psychologytoday.com/us/therapists">Connect</a>
+            <!-- <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a> -->
+          </div>
+        </li>
+      </ul>
+
+      <!--sign up-->
+      <form type="post" action="signup.html">
+        <input  class="btn btn-outline-accent my-2 my-sm-0" type="submit" value="Sign Up" role="button">
+        <!-- <a class="btn btn-outline-accent my-2 my-sm-0"></a> -->
+        </input>
+      </form>
+    </div>
+  </nav>
+
+	<div class="box1 primary">
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>heartwork.</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 mt-3">
+          <input type="text" id="myFilter" class="form-control searchbar-width" onkeyup="myFunction()" placeholder="Search content...">
+          </div>
+        </div>
+      <div class="row d-flex justify-content-center">
+          <div class="col">
+            <a href="https://suicidepreventionlifeline.org/" class="btn btn-primary btn-crisis" target="_BLANK">Crisis Line</a>
+          </div>
+          <div class="col">
+            <a href="https://www.samhsa.gov/find-help/national-helpline" class="btn btn-primary btn-help" target="_BLANK">Help Line</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+	<div class="box2 container">
+    <br>
+		<h1 class = "container-head">Our Mission</h1>
+    <center>
+      <p class="mb-3">
+        As high school students, our social-emotional and mental health come first. External factors, such as exams and college applications, can affect our quality of life: health, sleep patterns and mood. 
+        <br>
+        <br>
+        <b>It’s time to reclaim our well-being by putting in the Heartwork.</b>
+        </p>
+    </center>
+	</div>
+
+  <div class="box-3 secondary">
+    <br>
+    <h1> Self-Soothing Techniques</h1>
+    <div class="container align-items-center">
+      <div class="row">
+      </div>
+      <div class="row">
+        <div class="card mr-5 ml-5 mt-5" style="width: 18rem;">
+          <!--move-->
+          <div class="card-body">
+            <h5 class="card-title">Move</h5>
+            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+            <p class="card-text">Are you intrested in learning soothing movements that could help you relax and calm down a bit? Then check out these awesome pages linked below to find awesome information about movements!!</p>
+            <a href="soothe.html#move" class="card-link">Yoga</a>
+            <a href="soothe.html#move" class="card-link">Exercise</a>
+          </div>
+        </div>
+        <div class="card mr-5 ml-5 mt-5" style="width: 18rem;">
+          <!--breathe-->
+          <div class="card-body">
+            <h5 class="card-title">Breathe</h5>
+            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+            <p class="card-text">Did you ever feel frustrated or helpess? Then you might be lacking meditation and breatihing excerses. Click on the links below to learn more about mediation and breathing excersises.</p>
+            <a href="soothe.html#meditation" class="card-link">Meditation</a>
+            <a href="soothe.html#mindfulness" class="card-link">Mindfulness</a>
+          </div>
+        </div>
+        <div class="card ml-5 mt-5" style="width: 18rem;">
+          <!--listen-->
+          <div class="card-body">
+            <h5 class="card-title">Listen</h5>
+            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+            <p class="card-text">Do you like listening to background music or sounds while studying or reading? Then here is a full library of music to listen to!! You just have to click on the link below and pick a song to listen.</p>
+            <a href="soothe.html#listen" class="card-link">Music Library</a>
+            <!-- <a href="#" class="card-link">Another link</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="box-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Tips</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="box ml-5 mt-3">
+            <h2 class = "h2-heading-home">Personal</h2>
+          </div>
+          <div class="box ml-5 mt-3">
+            <h2 class = "h2-heading-home">Professional</h2>
+          </div>
+          <div class="box ml-5 mt-3">
+            <h2 class = "h2-heading-home">Academic</h2>
+          </div>
+        </div>
+      </div>
+      <div class = "col">
+        <div id="breathing-button"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    </br>
+    <h1 class = "h1-heading-footer">Heartwork</h1>
+		<p class = "pTag-description-footer">
+      "Your social-emotional companion"
+    </p>
+    </br>
+    <center>
+      <a href="contact.html" class = "contact-btn">Contact Us</a>
+    </center>
+    </br>
+    </br>
+    </br>
+    <center>
+      <div class = "icons"> 
+        <a href="https://github.com/CodingLakshmi/Heartwork">
+          <img src="Images/github_icon_img.jpg" alt="gitHub icon image" class = "gitHub">
+        </a>
+        <a href="https://devpost.com/software/heartwork">
+          <img src="Images/Devpost_icon_img.png" alt="devpost icon image" class = "devpost">
+        </a>
+        <a href="https://youtu.be/yepinN4ximg">
+          <img src="Images/youtube_icon_img.png" alt="youtube icon image" class = "youtube">
+        </a>
+        <br>
+      </div>
+    </center>
+  </footer>
+
+  <script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "71d28492-3a1f-4c7d-96f8-79975b92b178", // The ID of this integration.
+        region: "us-south", // The region your integration is hosted in.
+        serviceInstanceID: "fa11eb7c-1c9a-48b6-a292-f4d7e8cac55c", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+      document.head.appendChild(t);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,425 @@
+/* Main HTML Tag */
+
+/* body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+
+  height: auto;
+} */
+
+.img {
+  height: 200px;
+  width: 250px;
+}
+
+a {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.right {
+  margin-inline-start: 200px;
+}
+
+.h2-heading-home {
+  margin-inline-start: 300px;
+}
+
+.fa {
+  padding: 10px;
+  text-align: center; 
+  border-radius: 15%;
+  font-size: 100px;
+  text-decoration: none;
+  margin: 5px 2px;
+} 
+
+.card-body {
+  text-align: center;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.devpost:hover {
+  opacity: 0.7;
+}
+
+.container {
+  height: 300px;
+}
+
+.container-head {
+  margin-top: 30px;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+} 
+
+.btn-outline-accent {
+  border-width: 0.5;
+  color: #EB5160;
+  background-color: #FFFFFF;
+}
+
+.btn-outline-accent:hover {
+  color: #FFFFFF;
+  background-color: #EB5160;
+}
+
+.primary {
+  background-color: #B1CBE7;
+  color: #1F363D;
+}
+
+.secondary {
+  background-color: #C3DBB0;
+  color: #2D4521;
+}
+
+.btn-outline-logo {
+  border-width: 0.5;
+  background-color: #38B6FF;
+  color: #FFFFFF;
+}
+
+.btn-outline-logo:hover {
+  background-color: #FFFFFF;
+  color: #38B6FF;
+}
+
+/* ID's CSS */
+
+#co {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Classes CSS */
+
+.navigation {
+  height: 250px;
+  background-color: black;
+}
+
+.home-link {
+  position: relative;
+  left: 400px;
+  bottom: 50px;
+  width: 100px;
+}
+
+.exercises-link {
+  position: relative;
+  left: 500px;
+  bottom: 75px;
+  width: 160px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.tips-link {
+  position: relative;
+  left: 670px;
+  bottom: 100px;
+  width: 200px;
+}
+
+.music-link {
+  position: relative;
+  left: 800px;
+  bottom: 125px;
+  width: 150px;
+}
+
+.chat-link {
+  position: relative;
+  left: 950px;
+  bottom: 149px;
+  width: 100px;
+}
+
+.about-link {
+  position: relative;
+  left: 1030px;
+  bottom: 174px;
+  width: 100px;
+}
+
+.links {
+  color: white;
+} 
+
+.links:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.logo {
+  height: 2em;
+  width: 2em;
+  /* margin-left: 200px;
+  margin-top: 50px; */
+}
+
+/* Contact Us Styling */
+footer {
+  background-color: black;
+  height: 350px;
+  width: 100%;
+  color: white;
+}
+
+.contact-btn {
+  padding: 15px;
+  color: black;
+  background-color: white;
+  height: 20px;
+  width: 30px;
+  border-radius: 10px;
+}
+
+.contact-btn:hover {
+  padding: 15px;
+  color: black;
+  background-color: white;
+  height: 20px;
+  width: 30px;
+  text-decoration: underline;
+}
+
+.gitHub {
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+}
+
+.youtube {
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+}
+
+.devpost {
+  height: 45px;
+  width: 45px;
+  margin-right: 15px;
+}
+
+.primary {
+  height: 400px;
+}
+
+.box-6 {
+  height: auto;
+}
+
+.box-9 {
+  height: 1200px;
+}
+
+.box-10 {
+  height: 1600px;
+}
+
+.box-11 {
+  height: 1100px;
+}
+
+.box-4 {
+  height: 600px;
+}
+
+.box-3 {
+  height: 500px;
+}
+
+.pTag-description {
+  margin-inline-start: 400px;
+  margin-inline-end: 400px;
+}
+
+.seeking-help-title {
+  margin-top: 50px;
+  font-size: 70px;
+}
+
+.btn-help {
+  padding: 30px;
+  font-size: 35px;
+}
+
+.btn-crisis {
+  padding: 20px;
+  font-size: 35px;
+}
+
+.pTag2-description {
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
+}
+
+.h2-heading-health {
+  text-align: left;
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
+}
+
+.iframe-health {
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
+}
+
+.h1-heading-health {
+  text-align: center;
+}
+
+.ul-health {
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
+}
+
+.deatils-health {
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
+}
+
+.hr-dotted {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 10px;
+  width: 10%;
+}
+
+/* CSS Animation */
+#breathing-button {
+  padding: 12px;
+  position: absolute;
+  right: 100px;
+  top: 20px;
+  -webkit-animation: breathing 5s ease-out infinite normal;
+  animation: breathing 10s ease-out infinite normal;
+  font-family:'Lantinghei SC';
+  font-size: 16px;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #4AC29A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(2.5);
+    transform: scale(2.5);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(2.5);
+    -ms-transform: scale(2.5);
+    transform: scale(2.5);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+
+.center {
+  margin-inline-start: 100px;
+}
+
+.h1-heading-home {
+  text-align: center;
+}
+
+/* .box-4 {
+  height: 600px;
+} */
+
+.unicorn {
+  margin-inline-start: 200px;
+}
+
+.pTag-move {
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
+}
+
+.ul-move {
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
+}
+
+.box-5 {
+
+}
+
+.box-12 {
+  height: 300px;
+}
+
+.box-13 {
+  height: 200px;
+}
+
+.pTag-description-footer {  
+  text-align: center;
+  font-size: 20px;
+}
+
+.h1-heading-footer {
+  font-size: 60px;
+}
